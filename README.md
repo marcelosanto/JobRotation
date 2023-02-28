@@ -47,3 +47,15 @@ println("ES: ${representacoes[3]}%")
 println("Outros: ${representacoes[4]}% ")
 ```
 # Reverse String
+Este projeto inverte uma String.
+
+```
+val minhaString = "Hello World!" // string a ser invertida
+var stringInvertida = ""
+
+for (i in minhaString.length - 1 downTo 0) {
+     stringInvertida += minhaString[i]
+}
+
+println(stringInvertida)
+```
